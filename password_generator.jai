@@ -32,8 +32,8 @@ generate_password :: (settings: Generator_Settings, data: *Generator_Data) -> bo
 
     uppercase := to_upper_copy(letters);
 
-    password: *u8 = alloc(settings.password_length);
-    memset(password, 0, settings.password_length);
+    password: *u8 = alloc(settings.password_length+1);
+    memset(password, 0, settings.password_length+1);
 
     options: [..] string;
     options.allocator = temp;

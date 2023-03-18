@@ -144,7 +144,7 @@ main :: ()
 		{
 			case .Ok;
 			{
-				ImGui.Text(to_string(data.password));
+				ImGui.Text(to_string(data.password, settings.password_length));
 				ImGui.SameLine();
 				if ImGui.Button("Copy")
 				{
