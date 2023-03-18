@@ -1,5 +1,5 @@
 letters :: "qwertyuiopasdfghjklzxcvbnm";
-symbols :: "!\"#$%%&'()*+,-./:;<=>?@[\\]^_`{|}~";
+symbols :: "!\"#$&'()*+,-./:;<=>?@[\\]^_`{|}~";
 numbers :: "0123456789";
 
 Generator_Settings :: struct 
